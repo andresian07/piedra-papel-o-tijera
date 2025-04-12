@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+p {
+    text-align: center;
+    color: #2980b9;
+}
+
+button {
+    background-color: #3498db;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Cambios en los selectores hover */
+#piedra:hover {
+    background-color: #494a4b;
+    color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+}
+
+#papel:hover {
+    background-color: #f6f9fc;
+    color: #2c3e50;
+    border: 1px solid #2c3e50;
+}
+
+#tijera:hover {
+    background-color: #e7db35;
+    color: #f0f0f0;
+}
